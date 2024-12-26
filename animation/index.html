@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main ">
+       <div class="nav flex item-center justify-between  py-10 px-[200px] text-[18px]">
+            <div class="link flex gap-10">
+                <a class="anime1" href="#">Home</a>
+                <a class="anime1" href="#">Pricing</a>
+                <a class="anime1" href="#">Product</a>
+            </div>
+            <div class="name1">
+                <!-- <a>Sheryians</a> -->
+                 <a class="anime1" href="#">Sheryians</a>
+            </div>
+            <div class="name2">
+                <!-- <h2>Our Jaurny</h2> -->
+                 <a class="anime1" href="#">Our Jaurny</a>
+
+            </div>
+        </div>
+
+        <div class="babe  mt-60 center-area px-[200px]  ">
+            <div class="anime3 left-side">
+                <h1 class="text-3xl">01.</h1>
+                <h2 class="text-3xl">sustanablity</h2>
+                <h2 class="mt-3">Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. <br> Eum, quisquam.</h2>
+                <!-- <h3 class="bg-red-800 w-[160px] h-[260px]"></h3> -->
+                 <img class="w-[180px] h-[250px] mt-3" src="pinkgreenplant.jpg" alt="">
+            </div>
+
+            <div class="anime3 center-part">
+                <div class="center-text">
+                    <h1 class="anime2">Ephemeral</h1>
+                    <h2 class="anime2">Equilibrium.</h2>
+                </div> 
+                <div class="center-img">
+                    <img  src="pinkplant.jpg" alt="">
+                    <p>committed to sustanablity, ecofrendly choice for a better tomorrow</p>
+                </div>
+            </div>
+
+            <div class="anime3 right-side">
+                <button class="border-2 border-black h-[60px] w-[60px] rounded-full"><i class="ri-arrow-down-line"></i></button>
+                <h1>Visit Our galery</h1>
+            </div>
+        </div> 
+
+        <div class="motive">
+            <h3>OUR MOTIVE</h3>
+            <p>At Sheryians, we are deeply commited <span id="span1"></span>to sustainablity.  We belive in a green, more sustainabl future, and it's at the core of everything we do. <span id="span2"></span>  our praticed are designed with enviromental responsbility in mind , from sourcing eco-friendly matreial <span id="span3"></span> to reducing to our carbon footprint.</p>    
+        </div>
+
+        <div class="sky">
+            <div class="pani">
+                <img src="./sea.jpg" alt="">
+                <h2>Synergy</h2>
+                <p>Committed to sustainablity, eco-friendly choice for a better tomorrow</p>
+            </div>
+            <div class="cloud">
+                <img src="./cloud.jpg" alt="">
+                <h2>Harmony</h2>
+                <p>committed to sustainablity, eco-friendly choice for a better tomorrow </p>   
+            </div>
+        </div>
+
+        <div class="botel">
+            <div class="botel-img">
+                <img src="./bottle.jpg" alt="">
+                <img src="./bottle2.jpg" alt="">
+            </div>
+            <div class="botel-text">
+                <h1>Biodegradable</h1>
+                <h1>Packaging</h1>
+                <p>committed to sustainablity, eco-friendly choice for a better tomorrow </p>
+            </div>
+        </div>
+
+       <div class="last-part">
+            <div class="video">
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                        const video = document.querySelector('video');
+                        const button = document.querySelector('.last-part button');
+
+                        button.addEventListener('mouseover', function() {
+                            video.style.opacity = '1';
+                            video.play();
+                        });
+
+                        button.addEventListener('mouseout', function() {
+                            video.style.opacity = '0';
+                            video.pause();
+                        });
+                    });
+                </script>
+                <video src="back.mp4" autoplay muted loop></video>  
+                <div id="video-text">
+                    <h1>Thing our future.</h1>
+                    <button>join the movement</button>
+                </div>
+            </div>   
+        </div>
+
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

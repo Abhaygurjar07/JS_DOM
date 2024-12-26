@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(135, 135, 233);
+}
+.card{
+   width: 350px;
+   height: 650px;
+   background-color: black;
+   border-radius: 20px;  
+   color: white;
+   position: relative;
+   box-shadow: 0px 0px 15px 2px black;
+}
+.hidden{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    text-align: start;
+}
+.hidden img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+.hidden h2{
+    font-size: 17px;
+}
+.hidden h5{
+    font-size: 12px;
+    color: gray;
+}
+.text-part{
+    padding: 20px 
+}
+.text {
+    margin-top: 15px;
+}
+.text h2{
+    margin-top: 5px;
+    padding: 3px 10px;
+    background-color: rgba(112, 107, 107, 0.632);
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    color: gray;
+    
+}
+.icon-text{
+   padding: 0px 15px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.icon-text h1{
+    font-size: 25px;
+}
+.icon-text i{
+    font-size: 18px;
+}
+.full{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(66, 66, 212); */
+    background-size: cover;
+    display: none;
+    border-radius: 20px;    
+}
+.babei{
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.story{
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 10px;
+}
+.story::-webkit-scrollbar {
+    display: none;
+} 
+.mini{
+    padding: 3px;
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 80px;
+    height: 120px;
+    background-color: rgba(128, 128, 128, 0.511);
+    border-radius: 10px;   
+    margin-left: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: inline-block;
+    
+}
+.mini img{
+    
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #fff;
+    background-size: cover;
+    background-position:  center;
+    object-fit: cover;
+    border: 2px solid green;
+   
+}
+.name h3{
+    font-weight: 500;
+}
+.chanel{
+    overflow-y: auto ;
+}
+#text2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+#text2 h2{
+    font-size: 17px;
+}
+#text2 h3{
+    font-size: 11px;
+    background-color: gray;
+    padding: 3px 10px;
+    border-radius: 50px;
+}
+
+#explor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    overflow:auto;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.196);
+}
+.dp{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.dp img{
+   width: 40px;
+   height: 40px;
+   background-color: red;
+   background-size: cover;
+   border-radius: 50px;
+   border: none;
+   object-fit: cover;
+   background-position: center;
+}
+.name h3{
+    font-size: 15px;
+}
+.time{
+    text-align: center;
+}
+.time h4{
+    font-size: 11px;
+}
+.time button{
+    background-color: rgb(47, 114, 47);
+    border-radius: 50px;
+    font-size: 13px;
+    padding: 2px 5px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+}
+.find{
+    padding: 15px;
+    /* overflow: auto; */
+}
+.find h3{
+    font-size: 12px;
+    color: gray;
+}
+.find-chanel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+   
+}
+.find-chanel img{
+   width: 45px;
+   height: 45px;
+   /* background-color: #fff; */
+   border-radius: 50px;
+   background-size: cover;
+   background-position:  center;
+   object-fit: cover;
+   border: none;
+   
+}
+.user-detail{
+    flex: none;
+    margin-right: 14vh;
+}
+.user-detail h6{
+    font-size: 10px;
+    color: gray;
+}
+.user-detail h4{
+    font-size: 18px;
+    font-weight: 500;
+}
+.find-chanel button{
+    padding: 4px 6px;
+    background-color: green;
+    border-radius: 50px;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+}
+.btn{
+    padding: 5px 15px;
+}
+button{
+    padding: 4px 6px;
+    background-color: green;
+    border-radius: 50px;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+}
